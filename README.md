@@ -2,7 +2,7 @@
 
 This repository contains data, analysis, and visualizations on federal funding cuts to Ivy League universities under the Trump administration- 2025. The project examines how these cuts impact university operations, research capabilities, and the broader implications for American academia and innovation.
 
-The story examines how the Trump administration has threatened to freeze more than $12 billion in federal funding to prestigious American universities, with six of the eight Ivy League institutions already facing significant planned cuts. These cuts are ostensibly based on allegations that universities failed to address "civil rights violations" and "anti-semitism" on their campuses.
+The story examines how the Trump administration has threatened to freeze more than $12 billion in federal funding to prestigious American universities, with six of the eight Ivy League institutions already facing significant planned cuts. These cuts are based on allegations that universities failed to address "civil rights violations" and "anti-semitism" on their campuses.
 
 - Federal government spends approximately $85 billion directly on US universities (1.25% of total federal spending)
 - Ivy League institutions receive over $6 billion in federal funding, representing 8% of university funding but only 0.5% of total American universities
@@ -25,4 +25,4 @@ The repository includes visualizations showing:
 - Endowment sizes compared to federal funding
 - Potential impact of funding cuts by institution
 
-Here's is the link to the story - https://rashimishhra.github.io/rashiportweb/
+Here's is the link to the story - https://rashimishhra.github.io/IVY-FUNDING/
