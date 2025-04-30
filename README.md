@@ -25,4 +25,4 @@ The repository includes visualizations showing:
 - Endowment sizes compared to federal funding
 - Potential impact of funding cuts by institution
 
-Here's is the link to the story - https://rashimishhra.github.io/IVY-FUNDING/
+Here's is the link to the story - https://rashimisra.github.io/IVY-FUNDING/
