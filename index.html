@@ -95,8 +95,9 @@
             text-align: center;
         }
 
-        /* Header banner image */
+        /* Header banner image with overlay text */
         .header-banner {
+            position: relative;
             width: 100%;
             max-width: 100%;
             overflow: hidden;
@@ -105,6 +106,38 @@
         .header-banner img {
             width: 100%;
             display: block;
+        }
+        
+        .banner-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 2em;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        
+        .banner-overlay h1 {
+            color: white;
+            margin: 0 0 0.3em 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        
+        .banner-overlay .subhead {
+            color: white;
+            margin: 0;
+            font-size: 1.2em;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+        }
+        
+        .image-credit {
+            position: absolute;
+            bottom: 5px;
+            right: 10px;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 0.7em;
+            padding: 2px 5px;
+            background-color: rgba(0, 0, 0, 0.3);
         }
 
         /* margin on mobile */
@@ -117,22 +150,34 @@
                 padding-left: 0.5em;
                 padding-right: 0.5em;
             }
+            
+            .banner-overlay {
+                padding: 1em;
+            }
+            
+            .banner-overlay h1 {
+                font-size: 1.8em;
+            }
+            
+            .banner-overlay .subhead {
+                font-size: 1em;
+            }
         }
     </style>
 </head>
 
 <body>
-    <!-- Added header banner image -->
+    <!-- Added header banner image with overlay text -->
     <div class="header-banner">
-        <img src="columbia-university-trump-GettyImages-2206343708.jpg" alt="University protest with signs saying 'Hands off our university' and 'Defend the law'">
+        <img src="university-protest-banner.jpg" alt="University protest with signs saying 'Hands off our university' and 'Defend the law'">
+        <div class="banner-overlay">
+            <h1>Federal Cuts on Ivy Leagues: Why do they matter?</h1>
+            <p class="subhead">Trump administration has threatened the US Universities to freeze more than $12 billions</p>
+        </div>
+        <div class="image-credit">Image: Foreign Policy</div>
     </div>
     
     <div class="content">
-        <div class="header">
-            <h1>Federal Cuts on Ivy Leagues: Why do they matter?</h1>
-            <p class="subhead">Trump administration has threatened the US Universities to freeze more than $12 billions </p>
-            </p>
-        </div>
         <div class="byline">
             <p>By <a href="https://rashimisra.github.io/">Rashi Mishra</a></p>
         </div>
